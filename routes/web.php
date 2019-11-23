@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 //コントローラー使用パターン
 Route::get('hello', 'HelloController@index');
+ROute::get('contact','HelloController@contact');

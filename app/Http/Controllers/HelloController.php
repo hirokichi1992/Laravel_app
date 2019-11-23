@@ -12,4 +12,8 @@ class HelloController extends Controller
         $data = ['msg' => 'これはコントローラから渡されたメッセージです'];
         return view('hello.index', $data);
     }
+
+    public function contact(){
+        return view('contact.index');
+    }
 }
